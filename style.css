@@ -1,7 +1,8 @@
 * {
     margin:0;
     padding:0;
-    box-sizing:0;
+    box-sizing: border-box;
+
 }
 
 
@@ -12,7 +13,6 @@ margin: 0 auto;
 width: 100%;
 display: grid;
 grid-template-rows: 1fr 1fr; 
-place-items: center;
 height: 100vh; 
 }
 
